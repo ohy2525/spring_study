@@ -32,7 +32,7 @@ public class SpringMemberControllerV3 {
         model.addAttribute("member", member);
         return "save-result";
     }
-    
+
     @GetMapping
     public String members(Model model) {
 
