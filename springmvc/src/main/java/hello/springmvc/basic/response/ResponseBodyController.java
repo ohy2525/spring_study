@@ -40,7 +40,7 @@ public class ResponseBodyController {
         helloData.setAge(30);
         return new ResponseEntity<>(helloData, HttpStatus.OK);
     }
-    
+
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
     @GetMapping("/response-body-json-v2")
