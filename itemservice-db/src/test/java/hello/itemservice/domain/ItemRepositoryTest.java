@@ -50,8 +50,6 @@ class ItemRepositoryTest {
         transactionManager.rollback(status);*/
     }
 
-    //@Commit    //    @Rollback(false)  그래도 커밋하고 싶은 경우
-    //@Transactional
     @Test
     void save() {
         //given
